@@ -49,7 +49,7 @@ const Home = () => {
 
   // ⚠️ API Key
   const ai = new GoogleGenAI({
-    apiKey: "AIzaSyBNnJyXmzp0Hyd4hLuVLlJGDixnwBYtIPs"
+    apiKey: import.meta.env.VITE_GEMINI_API_KEY
   });
 
   // ✅ Generate code
